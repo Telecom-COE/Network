@@ -41,6 +41,7 @@ r2 = r2_score(y_test, y_pred)
 print(f"Mean Squared Error: {mse}")
 print(f"R-squared: {r2}")
 
+
 # Testing the Model on New Data
 
 #new_data = np.array([[-50, 30, 0.5, 1, 0.7, 50, 500, 99.7, 20, 50, 25, 12, 2, 4]])  # Example data
