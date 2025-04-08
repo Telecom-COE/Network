@@ -6,6 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
+
 data = pd.read_csv('network_traffic.csv')
 # Encoding categorical variable 'Connection Type' using one-hot encoding
 data_encoded = pd.get_dummies(data, drop_first=True)
